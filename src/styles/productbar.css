@@ -1,0 +1,30 @@
+@import './common.css';
+
+.productbar-container {
+    display: flex;
+    margin-top: 80px;
+}
+
+.productbar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px 0px 40px;
+    font-size: 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+.productbar-icon {
+    margin-bottom: 5px;
+    max-width: 80%;
+    height: auto;
+}
+
+.productbar-item:hover, .productbar-item--selected{
+    color: var(--text-hover-color);
+}
+
+.productbar-icon:hover, .productbar-icon--selected{
+    max-width: 95%;
+    transition: 0.3s ease-in-out;
+}

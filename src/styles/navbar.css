@@ -1,0 +1,24 @@
+@import './common.css';
+
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+.navbar-item {
+    padding: 3px 15px 3px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-item:hover {
+    color: var(--text-hover-color);
+}
